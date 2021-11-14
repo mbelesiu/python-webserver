@@ -1,5 +1,4 @@
-from django.shortcuts import render
-from django.http import HttpRequest
+from django.http import HttpResponse
 
 def index(requests):
-  return HttpRequest("Hello, world. You're at the pills index")
+  return HttpResponse("Hello, world. You're at the polls index")
